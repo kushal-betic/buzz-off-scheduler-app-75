@@ -1,0 +1,34 @@
+{
+  "appId": "app.lovable.c067a16781724301aaeb224d8c8f7394",
+  "appName": "buzz-off-scheduler-app-98",
+  "webDir": "dist",
+  "server": {
+    "url": "https://c067a167-8172-4301-aaeb-224d8c8f7394.lovableproject.com?forceHideBadge=true",
+    "cleartext": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1000,
+      "launchAutoHide": true,
+      "backgroundColor": "#10b981",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false,
+      "splashFullScreen": false,
+      "splashImmersive": false
+    },
+    "StatusBar": {
+      "style": "DEFAULT",
+      "backgroundColor": "#f0f9ff",
+      "overlaysWebView": false
+    },
+    "Keyboard": {
+      "resize": "native"
+    }
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true
+  }
+}
