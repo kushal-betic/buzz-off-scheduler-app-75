@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { BluetoothIcon, Clock, Zap, Info, HelpCircle, User, Settings, Droplets } from "lucide-react";
 import BluetoothPairing from "@/components/BluetoothPairing";
-import { BluetoothService, DeviceData } from "@/services/bluetoothService";
+import { BluetoothService, DeviceData } from "@/services/bluetooth/bluetoothService";
 import AboutPage from "@/components/AboutPage";
 import HelpPage from "@/components/HelpPage";
 import TimeSettings from "@/components/TimeSettings";

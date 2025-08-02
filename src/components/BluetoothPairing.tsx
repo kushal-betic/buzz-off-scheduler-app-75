@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { BluetoothIcon, Search, Loader2, Wifi, Signal, AlertCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
-import { BluetoothService, BluetoothDevice } from "@/services/bluetoothService";
+import { BluetoothService, BluetoothDevice } from "@/services/bluetooth/bluetoothService";
 
 interface BluetoothPairingProps {
   onConnect: (deviceName: string) => void;
